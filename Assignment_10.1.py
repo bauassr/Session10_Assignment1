@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May 13 00:23:05 2018
+Created on Sun May 14 00:23:05 2018
 
 @author: singh.shivam"""
 
 import pandas as pd
-import matplotlib.pyplot as plot 
 
-#Dataset = pd.read_csv('https://raw.githubusercontent.com/guipsamora/pandas_exercises/master/06_Stats/US_Baby_Names/US_Baby_Names_right.csv')
-Dataset = pd.read_csv('US_BabyNames.csv')
+Dataset = pd.read_csv('https://raw.githubusercontent.com/guipsamora/pandas_exercises/master/06_Stats/US_Baby_Names/US_Baby_Names_right.csv')
+#Dataset = pd.read_csv('US_BabyNames.csv')
 DF= pd.DataFrame(Dataset)
 DF.shape
 DF.head()
