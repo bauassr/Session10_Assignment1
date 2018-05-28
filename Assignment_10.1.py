@@ -31,6 +31,5 @@ print('Median Name and its occurance count \n','-'*44,sep="")
 print(Name[Name.Count==Name.Count.median()])
 
 #Male and female count by states
-
-#print(DF.groupby('State').Gender.count())
-print(DF['State'].value_counts())
+#print(DF.groupby(['State','Gender']).count())
+print(DF.groupby('State').Gender.value_counts())
